@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+  }
 
 a {
   color: inherit;
@@ -13,4 +13,11 @@ a {
 
 * {
   box-sizing: border-box;
+  z-index: 2;
+}
+
+.inTheBack {
+  z-index: 1;
+  overflow: hidden;
+  position: fixed;
 }
